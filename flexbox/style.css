@@ -48,5 +48,13 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    width: 80vw;
+  }
 }
